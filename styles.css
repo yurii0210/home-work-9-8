@@ -1,0 +1,189 @@
+* {
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0 ;
+}
+
+
+main {
+    width: 1920px;
+    height: 2464px;
+}
+
+.firstscreen {
+   height: 700px;
+   background: #EEEFF1;
+}
+
+.navMenu {
+   display: flex;
+   padding-top: 79px;
+   padding-left: 399px;
+   padding-right: 910px;
+   gap: 42px;
+}
+
+.navMenu-item {
+    font: Roboto;
+    size: 16px;
+    line-height: 16px;
+    letter-spacing: 10%;
+}
+.navMenu-item:hover {
+    color:#34547A;
+}
+
+
+.hero {
+    height: 700px;
+    background: #EEEFF1;
+    size: 48px;
+
+}
+
+.title {
+    font: Roboto;
+    size: 48px;
+    margin-top: 257px;
+    margin-left: 399px;
+    margin-right: 980px;
+    color: #000000;
+}
+
+.maintext {
+    font: Roboto;
+    size: 16px;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 980px;
+    color: #000000;
+}
+
+button {
+    background: #34547A;
+    color: #FFFFFF;
+    width: 225px;
+    height: 65px;
+    margin-top: 65px;
+    margin-left: 399px;
+}
+
+.about {
+    width: 540px;
+    height: 147px;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    padding-top: 112px;
+    padding-left: 690px;
+    padding-right: 690px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    size: 32px;
+    color: #000000;
+    background-color: #f9f9f9;
+}
+
+.textabout {
+    size: 16px;
+    color: #727272;
+    background-color: #f9f9f9;
+}
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 250px;
+    background-color: #34547A;
+    gap: 49px;
+   
+}
+
+
+.project {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    width: 141px;
+    height: 50px;
+    padding-top: 100px;
+    size: 16px;
+text-indent: 3px;
+}
+
+img  {
+    float: left;
+
+}
+p1  {
+    float: right;
+}
+
+.work {
+    width: 1920px;
+    height: 1004px;
+    background: #f9f9f9;
+}
+
+.works {
+    width: 540px;
+    height: 147px;
+    background: #f9f9f9;
+    padding-top: 100px;
+    padding-left: 690px;
+    padding-right: 690px;
+}
+
+h3 {
+    size: 32    px;
+    color: #000000;
+}
+
+
+
+.video-container {
+    width: 1110px;
+    height: 600px;
+    padding-left: 405px;
+    padding-right: 405px;
+    padding-bottom: 100px;
+}
+
+iframe {
+    width: 1110px;
+    height: 600px;
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 151px;
+    background: #34547A;
+}
+
+.name {
+    width: 130px;
+    height: 19px; 
+    line-height: 25px;
+    margin-top: 50px;
+    margin-left: 406px; 
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    size: 21px;
+}
+
+.autor {
+    width: 193px;
+    height: 12px;
+    margin-top: 10px;
+    margin-left: 406px;
+    margin-right: 1321px;
+    margin-bottom: 50px;
+    line-height: 22px;
+    color: #FFFFFF;
+    size: 13px
+
+}
